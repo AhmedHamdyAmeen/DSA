@@ -97,4 +97,6 @@ public class PivotIndex {
     
 }
 
+// 1991. Find the Middle Index in Array: is the same idea
+
 
