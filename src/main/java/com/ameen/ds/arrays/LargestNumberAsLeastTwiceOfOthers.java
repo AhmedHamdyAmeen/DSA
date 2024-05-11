@@ -1,9 +1,6 @@
 package com.ameen.ds.arrays;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
-import java.util.stream.Collectors;
 
 public class LargestNumberAsLeastTwiceOfOthers {
 
@@ -75,7 +72,7 @@ public class LargestNumberAsLeastTwiceOfOthers {
         }
         
         for (int i = 0; i < nums.length; i++) {
-            if ((nums[i] * 2) > max) return -1;
+            if ((nums[i] * 2) > max && i != index) return -1;
         }
         
         return -1;
