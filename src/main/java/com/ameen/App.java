@@ -1,6 +1,5 @@
 package com.ameen;
 
-import java.util.Stack;
 
 /**
  * Hello world!
