@@ -1,6 +1,7 @@
 package com.ameen.ds.stack;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class StackArrayDynamic<T> {
@@ -32,6 +33,17 @@ public class StackArrayDynamic<T> {
         return item;
     }
     
+    
+//    public void ensureCapacity(int minCapacity) {
+//        int oldCapacity =  stackList.length;
+//
+//        if (minCapacity > oldCapacity) {
+//            int newCapacity = oldCapacity * 2;
+//            if (newCapacity < minCapacity)
+//                newCapacity = minCapacity;
+//            stackList = Arrays.copyOf(stackList, newCapacity);
+//        }
+//    }
     
     public Boolean isFull() {
         return (top == stackList.size());
