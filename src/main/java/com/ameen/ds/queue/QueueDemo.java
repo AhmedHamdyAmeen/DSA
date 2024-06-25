@@ -24,6 +24,10 @@ public class QueueDemo {
         
         queue.enqueue(7);
         
+        
+        
+        
+        
     }
     
 }

@@ -23,6 +23,7 @@ public class ArrayQueue {
     }
     
     public boolean isFull() {
+        // if rear == size -1
         return size == capacity;
     }
     
