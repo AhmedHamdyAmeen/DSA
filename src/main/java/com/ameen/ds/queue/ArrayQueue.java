@@ -44,6 +44,7 @@ public class ArrayQueue {
         if (isEmpty()) throw new IllegalStateException("Queue is empty");
         
         int item = queue[front];
+        queue[front] = 0;
         front = (front + 1) % capacity; // Ensures that `front` wraps around to the beginning of the array when it reaches the end.
         // Wrap Around: The modulus operator helps in wrapping the `rear` index back to 0 when it reaches the capacity of the queue. This ensures that the index stays within the bounds of the array.
         size--;
